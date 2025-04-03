@@ -1,0 +1,77 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    padding: 32px;
+    user-select: none;
+}
+h2{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 20px;
+    user-select: none;
+}
+h2:active{
+    color: aqua;
+}
+p{
+    margin-top: 40px;
+    line-height: 1.5;
+}
+.btn{
+    display: inline-block;
+    font-size: 10px;
+    margin-top: 10px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: #f66aae;
+    cursor: pointer;
+    
+}
+.btn:hover{
+    transition: 0.2s ease;
+    background-color: red;
+}
+
+.thong_bao{
+    position: relative;
+    font-size: 32px;
+    margin: 20px;
+}
+
+.modal{
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    position: fixed;
+    inset: 0;
+    
+}
+.modal .body{
+    position: relative;
+    margin: auto;
+    width: 200px;
+}
+.modal .body img{
+    width: 100%;
+}
+.modal .close-btn {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    display: flex;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    background: #ebebeb;
+    cursor: pointer;
+  }
+.modal .close-btn i {
+    font-size: 20px;
+    color: #666;
+    margin: auto;
+    justify-content: spa;
+  }
